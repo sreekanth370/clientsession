@@ -6,7 +6,9 @@ sudo: false
 
 # Choose a lightweight base image; we provide our own build tools.
 language: c
-
+arch:
+  - amd64
+  - ppc64le
 # Caching so the next build will be fast too.
 cache:
   directories:
